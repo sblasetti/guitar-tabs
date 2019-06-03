@@ -20,7 +20,7 @@ console.log(s);
 ```
 
 Generates the following output in the console:
-```javascript
+```
 e|-------5-7-------|
 B|-----5-----5-----|
 G|---5---------5---|
