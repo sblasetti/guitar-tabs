@@ -1,4 +1,6 @@
-const GuitarTabs = (function () {
+"use strict";
+
+const GuitarTabs = (function GuitarTabs() {
     var lines = [];
 
 	/**
@@ -43,7 +45,7 @@ const GuitarTabs = (function () {
 
         let str = "";
         for (let i = 0; i < tune.length; i++) {
-            str += `${tune[i]}${lines[i]}\n`;
+            str += `${tune[i]}${lines[i]}${i < 5 ? "\n" : ""}`;
         }
 
         return str;
@@ -67,4 +69,5 @@ const GuitarTabs = (function () {
     };
 })();
 
-export default GuitarTabs;
+// eslint-disable-next-line no-undef
+module.exports = GuitarTabs;

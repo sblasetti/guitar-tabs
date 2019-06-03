@@ -2,9 +2,9 @@
   "name": "guitar-tabs",
   "version": "0.1.0",
   "description": "Small library to write guitar tabs.",
-  "main": "index.js",
+  "main": "GuitarTabs.js",
   "scripts": {
-    "test": "eslint ."
+    "test": "eslint . && jest"
   },
   "repository": {
     "type": "git",
@@ -22,6 +22,7 @@
   "homepage": "https://github.com/sblasetti/guitar-tabs#readme",
   "devDependencies": {
     "eslint": "^5.16.0",
+    "eslint-plugin-jest": "^22.6.4",
     "jest": "^24.8.0"
   }
 }
